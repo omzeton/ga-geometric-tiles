@@ -4,8 +4,8 @@ import "./style.css";
 
 const p5 = new p5Class(() => {});
 
-const width = 2540;
-const height = 1440;
+const width = window.innerWidth;
+const height = window.innerHeight;
 
 const res = 4;
 
